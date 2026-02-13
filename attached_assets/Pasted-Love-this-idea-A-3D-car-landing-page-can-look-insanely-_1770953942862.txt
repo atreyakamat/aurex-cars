@@ -1,0 +1,334 @@
+Love this idea 😌 A 3D car landing page can look insanely premium if done right.
+
+Below is a MASTER BUILDER PROMPT you can paste into Replit / Bolt / v0 / Cursor / any AI code builder to generate the entire landing page in one go.
+
+🚀 MASTER BUILDER PROMPT
+
+(3D Car Landing Page – Premium Experience)
+
+ROLE
+
+You are a senior frontend engineer + 3D web experience designer.
+Your job is to build a high-performance, premium 3D landing page for a futuristic car brand.
+
+You specialize in:
+
+React + Vite / Next.js
+
+Three.js / React Three Fiber
+
+GSAP / Framer Motion
+
+Tailwind CSS
+
+Modern immersive UI/UX
+
+Smooth animations
+
+Scroll-based storytelling
+
+OBJECTIVE
+
+Build a fully responsive 3D car landing page that:
+
+Displays a realistic 3D car model in the hero section
+
+Allows mouse drag rotation of the car
+
+Has scroll-based animations
+
+Looks ultra-premium like Tesla / Porsche websites
+
+Is smooth (60fps optimized)
+
+Is production-ready
+
+TECH STACK (MANDATORY)
+
+React (Vite preferred)
+
+@react-three/fiber
+
+@react-three/drei
+
+Three.js
+
+Tailwind CSS
+
+Framer Motion
+
+GSAP (for scroll triggers)
+
+React Lenis (for smooth scrolling)
+
+DESIGN STYLE
+
+Dark theme
+
+Matte black + silver accents
+
+Glassmorphism UI panels
+
+Subtle glow effects
+
+Cinematic lighting
+
+Minimal but bold typography
+
+Large spacing
+
+Premium automotive vibe
+
+PAGE STRUCTURE
+1️⃣ NAVBAR
+
+Transparent navbar
+
+Blur background on scroll
+
+Logo (left)
+
+Links (right): Features, Specs, Performance, Book Now
+
+CTA Button: “Pre-Order”
+
+2️⃣ HERO SECTION (FULLSCREEN 3D)
+Requirements:
+
+Fullscreen canvas
+
+Realistic 3D sports car model (GLTF)
+
+HDRI lighting environment
+
+Soft shadows
+
+Subtle camera movement
+
+Mouse drag rotation
+
+Scroll zoom-in effect
+
+Overlay UI:
+
+Left side:
+
+Car name (Huge typography)
+
+Tagline
+
+Short description
+
+CTA Button: "Explore"
+
+Right side:
+
+Specs card (Glass panel)
+
+0–100 km/h
+
+Top Speed
+
+Range
+
+Horsepower
+
+3️⃣ SCROLL STORYTELLING SECTION
+
+As user scrolls:
+
+Car rotates slowly
+
+Camera moves from front → side → rear
+
+Text appears with fade animations
+
+Sections:
+
+Performance
+
+Animated numbers counting up
+
+Torque
+
+Acceleration
+
+Powertrain description
+
+Design
+
+Highlight headlights (glow effect)
+
+Highlight wheels
+
+Highlight interior
+
+Technology
+
+Floating UI cards
+
+AI Assist
+
+Smart Dashboard
+
+Autonomous Mode
+
+4️⃣ 360° INTERACTIVE VIEW SECTION
+
+Isolated centered 3D model
+
+User can:
+
+Rotate
+
+Zoom
+
+Change color (Red, Black, Silver, Blue)
+
+Smooth transitions when color changes
+
+5️⃣ SPECIFICATIONS SECTION
+
+Grid layout:
+
+Engine
+
+Battery
+
+Transmission
+
+Dimensions
+
+Safety
+
+Warranty
+
+Cards animate on scroll.
+
+6️⃣ PARALLAX SECTION
+
+Moving background
+
+Floating particles
+
+Big typography:
+“Engineered for the Future.”
+
+7️⃣ CALL TO ACTION
+
+Big centered heading
+
+Pre-book form
+
+Name
+
+Email
+
+Variant dropdown
+
+Submit button
+
+3D REQUIREMENTS
+
+Use GLTFLoader
+
+Use environment preset from drei
+
+Add realistic lighting:
+
+Directional Light
+
+Ambient Light
+
+Contact Shadows
+
+Add subtle idle animation (slow rotation if no interaction)
+
+PERFORMANCE OPTIMIZATION
+
+Lazy load 3D model
+
+Use suspense fallback
+
+Compress textures
+
+Use DRACO compression if possible
+
+Reduce unnecessary re-renders
+
+Maintain 60fps
+
+ANIMATIONS
+
+Use GSAP ScrollTrigger
+
+Smooth parallax transitions
+
+Text fade-in and slide-up
+
+Smooth button hover effects
+
+Magnetic button effect on CTA
+
+RESPONSIVENESS
+
+Mobile:
+
+Static hero image instead of heavy 3D
+
+Reduced animations
+
+Tablet:
+
+Simplified interaction
+
+Desktop:
+
+Full immersive experience
+
+BONUS PREMIUM TOUCHES
+
+Loading screen with car logo animation
+
+Page transition fade
+
+Cursor glow effect
+
+Subtle background ambient sound toggle
+
+Smooth scroll inertia
+
+FILE STRUCTURE
+
+/src
+/components
+Navbar.jsx
+Hero3D.jsx
+CarModel.jsx
+Specs.jsx
+Interactive360.jsx
+CTA.jsx
+/hooks
+/utils
+App.jsx
+main.jsx
+
+FINAL OUTPUT REQUIREMENTS
+
+Provide full working code
+
+Include package.json dependencies
+
+Include Tailwind config
+
+Include example GLTF model reference
+
+Code should run immediately after npm install
+
+BRAND NAME (USE THIS)
+
+Brand: AUREX Motors
+Car Model: AUREX X1
+
+Tagline:
+“Redefining Motion.”
