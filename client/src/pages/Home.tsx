@@ -12,14 +12,16 @@ export default function Home() {
   const y1 = useTransform(scrollY, [0, 500], [0, 200]);
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
-  const [activeColor, setActiveColor] = useState("#1a1a1a");
+  const [activeColor, setActiveColor] = useState("#0a0a0a");
 
   // Colors map
   const colors = [
-    { name: "Stealth Black", hex: "#1a1a1a" },
-    { name: "Quantum Silver", hex: "#C0C0C0" },
-    { name: "Nebula Blue", hex: "#3b82f6" },
-    { name: "Mars Red", hex: "#ef4444" },
+    { name: "Obsidian Black", hex: "#0a0a0a" },
+    { name: "Pearl White", hex: "#e8e4df" },
+    { name: "Metallic Silver", hex: "#8c8c8c" },
+    { name: "Deep Emerald", hex: "#0d4a2e" },
+    { name: "Matte Grey", hex: "#4a4a4a" },
+    { name: "Mars Red", hex: "#8b1a1a" },
   ];
 
   return (
@@ -175,7 +177,7 @@ export default function Home() {
             </div>
 
             {/* 3D Viewport */}
-            <div className="lg:col-span-8 h-[50vh] lg:h-auto rounded-2xl overflow-hidden border border-white/10 relative order-1 lg:order-2 shadow-2xl">
+            <div className="lg:col-span-8 h-[50vh] lg:h-[70vh] rounded-2xl overflow-hidden border border-white/10 relative order-1 lg:order-2 shadow-2xl">
               <Canvas3D color={activeColor} />
               <div className="absolute bottom-4 right-4 bg-black/60 backdrop-blur px-3 py-1 rounded text-xs text-white/70 uppercase">
                 Interactive 3D Preview
